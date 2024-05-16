@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>О разработчике</title>
+    <link rel="stylesheet" href="about-developer.css">
+</head>
+<body>
+    <div id="developer-info">
+        <h1>О разработчике</h1>
+        <div id="info-container"></div>
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Загрузка XML файла
+            var xhr = new XMLHttpRequest();
+            xhr.open("GET", "about-developer.xml", true);
+            xhr.onreadystatechange = function() {
+                if (xhr.readyState === 4 && xhr.status === 200) {
+                    var xmlDoc = xhr.responseXML;
+
+                    // Получение данных из XML
+                    var name = xmlDoc.getElementsByTagName("name")[0].childNodes[0].nodeValue;
+                    var surname = xmlDoc.getElementsByTagName("surname")[0].childNodes[0].nodeValue;
+                    var university = xmlDoc.getElementsByTagName("university")[0].childNodes[0].nodeValue;
+                    var description = xmlDoc.getElementsByTagName("description")[0].childNodes[0].nodeValue;
+                    var interests = xmlDoc.getElementsByTagName("interest");
+                    var email = xmlDoc.getElementsByTagName("email")[0].childNodes[0].nodeValue;
+                    var github = xmlDoc.getElementsByTagName("github")[0].childNodes[0].nodeValue;
+
+                    // Формирование HTML контента
+                    var infoContainer = document.getElementById("info-container");
+                    infoContainer.innerHTML = `
+                        <p><strong>Имя:</strong> ${name} ${surname}</p>
+                        <p><strong>Университет:</strong> ${university}</p>
+                        <p><strong>О себе:</strong> ${description}</p>
+                        <p><strong>Интересы:</strong> ${Array.from(interests).map(i => i.textContent).join(", ")}</p>
+                        <p><strong>Email:</strong> <a href="mailto:${email}">${email}</a></p>
+                        <p><strong>GitHub:</strong> <a href="${github}" target="_blank">${github}</a></p>
+                    `;
+                }
+            };
+            xhr.send();
+        });
+    </script>
+</body>
+</html>

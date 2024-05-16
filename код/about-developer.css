@@ -1,0 +1,43 @@
+/* Стили для элемента <developer> */
+developer {
+    display: block;
+    margin-bottom: 20px;
+}
+
+/* Стили для элементов <name>, <surname>, <university> */
+name, surname, university {
+    font-weight: bold;
+    color: #007bff;
+}
+
+/* Стили для элемента <description> */
+description {
+    margin-bottom: 10px;
+}
+
+/* Стили для элемента <interests> */
+interests {
+    margin-bottom: 10px;
+}
+
+/* Стили для элемента <interest> */
+interest {
+    display: inline-block;
+    padding: 5px 10px;
+    margin-right: 10px;
+    background-color: #28a745;
+    color: white;
+    border-radius: 3px;
+}
+
+/* Стили для элемента <contact> */
+contact {
+    margin-top: 20px;
+}
+
+/* Стили для элементов <email>, <github>, <linkedin> */
+email, github, linkedin {
+    display: block;
+    margin-bottom: 10px;
+    color: #007bff;
+}

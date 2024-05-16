@@ -1,0 +1,400 @@
+
+@font-face {
+	font-family: 'Open Sans';
+	src: url('OpenSans-Regular.woff2') format('woff2') url('OpenSans-Regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Open Sans Bold';
+	src: url('OpenSans-Bold.woff2') format('woff2') url('OpenSans-Bold.woff') format('woff');
+	font-weight: 700;
+	font-style: bold;
+}
+body {
+    font-size: 24px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #232A32;    
+}
+@media screen and (min-width: 1300px) {
+    header, main, footer {
+        width: 90%; /* Ширина всех элементов будет составлять 90% ширины окна браузера */
+    }
+}
+header, main, footer {
+    width: 100%; 
+}
+header {
+    background-color: black;
+    color: white;
+    height: 83px;
+    display: flex;
+    align-items: center;
+}
+a {
+    text-decoration: none; 
+    color: inherit; 
+}
+a:hover {
+    color: #0A70BF; 
+}
+.logo {
+    margin-top: 18px;
+    margin-bottom: 18px;
+    margin-left: 14px;
+    width: 125px;
+    height: 47px;
+}
+.navObject {
+    margin-top: 18px;
+    margin-bottom: 18px;
+    margin-left: 29px;
+    margin-right: 29px;
+    font-size: 24px;
+}  
+main {
+    font-size: 40px;
+    color: white;
+    text-align: left;
+    margin: 25px 0;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    gap: 29px;
+  }
+  .selectionOfCharacteristics {
+      width: 100%;
+      display: flex;
+      align-items: flex-start;
+      flex-direction: row;
+      gap: 10vw;
+  }
+  @media screen and (max-width: 1300px) {
+    .selectionOfCharacteristics {
+      gap: calc(10vw - 2vw);
+    }
+  }
+  @media screen and (max-width: 1200px) {
+    .selectionOfCharacteristics {
+      gap: calc(10vw - 4vw);
+    }
+  }
+  @media screen and (max-width: 1100px) {
+    .productName, .productColor, .productRAM, .productROM {
+        font-size: 30px;
+    }
+    .selectionOfCharacteristics {
+        gap: calc(10vw - 6vw);
+    }
+  }
+.product {
+    display: flex;
+    flex-direction: column; /* Располагаем содержимое .product в столбик */
+    align-items: center; /* Выравниваем содержимое .product по центру */
+}
+.product img {
+    width: 425px;
+    height: 580px;
+}
+.product div {
+    background-color: #39C33F;
+    margin-top: 10%;
+}
+.characteristicsSelection {
+    width: 100%;
+    display: flex;
+    flex-direction: column; /* Располагаем содержимое .characteristicsSelection в столбик */
+    justify-content: flex-start;
+}
+.productName, .productColor, .productRAM, .productROM {
+    font-size: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column; /* Располагаем содержимое .product в столбик */
+    align-items: flex-start; /* Выравниваем содержимое .product по центру */
+}
+.productColor, .productRAM, .productROM {
+    display: flex; /* Применяем flex-контейнер */
+    flex-wrap: wrap; /* Позволяет элементам переноситься на новую строку */
+    justify-content: flex-start; /* Выравниваем по горизонтали в начало (слева) */
+    flex-direction: row;
+    align-items: center; /* Выравниваем по вертикали по центру */ 
+    width: 100%;
+}
+.charName {
+    margin-top: 40px; 
+}
+.characteristicsSelection .productRAM > div,
+.characteristicsSelection .productROM > div{
+    display: flex; /* Применяем flex-контейнер */
+    justify-content: center; /* Выравниваем по горизонтали по центру */
+    align-items: center; /* Выравниваем по вертикали по центру */       
+    border: 7px solid #39C33F; /* Ширина обводки в зависимости от ширины окна */
+    min-width: 20vw; /* Минимальная ширина элементов в зависимости от ширины окна */
+    min-height: 5.5vw; /* Минимальная высота элементов в зависимости от ширины окна */
+    margin-right: 10px; /* Расстояние между элементами */
+    margin-bottom: 10px; /* Расстояние между строками */
+    flex-wrap: wrap; /* Позволяет элементам переноситься на новую строку */
+}
+.productName {
+    text-align: left; /* Выравниваем текст по левому краю */
+}
+.productColor > div {
+    margin-right: 2vw; 
+}
+.productColor > svg {
+    margin-right: 1vw; 
+    border: 7px solid #39C33F; 
+}
+.table {    
+    margin-left: 10%;
+    display: flex;
+    align-items: flex-end;
+    width: 70%;
+    flex-direction: row;
+    overflow-x: auto;
+    min-height: 300px;
+}
+.table-leftcolumn div {
+    text-align: left;
+}
+.table-rightcolumn div {
+    text-align: right;
+}
+.table-leftcolumn, .table-rightcolumn {
+    font-size: 15px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch; /* Выравнивание по высоте */
+}
+.table-cell {
+    flex: 1;
+    padding: 8px;
+    text-align: center;
+    color: white;
+    min-height: 50px;
+    flex-grow: 1;
+}
+#overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+    align-items: center;
+    justify-content: center;
+}
+#popup {
+    background-color: #333;
+    width: 70%;
+    height: 70%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    overflow-y: auto;
+    text-align: center;
+}
+#closeButton {
+    background-color: #39C33F;
+    margin-top: 20px;
+    padding: 10px 20px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#closeButton:hover {
+    background-color: #555;
+}
+.table-header {
+    font-size: 40px;
+    width: 100%;
+    align-self: left;
+    background-color: #39C33F;
+}
+footer {
+    background-color: black;
+    color: white;
+    display: flex; 
+    flex-direction: column;
+    align-items: center; 
+}
+footer a {
+    width: 100%;
+    height: 100%;
+    visibility: none;
+    text-decoration: none;
+}
+footer a:hover {
+    color: white;
+}
+.aboutCompany {
+    margin-left: 3%;
+    margin-right: 3%;    
+    display: flex; 
+    flex-direction: row; 
+    align-items: center; 
+}
+.footerObject1 {
+    font-size: 24px;
+    margin-top: 22px;
+    margin-bottom: 22px;
+    margin-right: 10%;
+    width: 50%; 
+    text-align: left; 
+    flex-grow: 1;
+}
+.footerObject2 {
+    font-size: 24px;
+    margin-top: 22px;
+    margin-bottom: 22px; 
+    text-align: left; 
+    width: 50%; /* Устанавливаем ширину 50% */
+}
+.number {
+    font-size: 50px;
+} 
+.bolding {
+    font-family: 'Open Sans Bold', sans-serif;
+    font-weight: bold;
+}
+.cards {
+    display: flex;
+    justify-content: center; 
+    width: 100%; /* Ширина будет занимать 100% контейнера footer */
+}
+.card {
+    width: 105px;
+    height: 72px;
+    margin: 0 3%; 
+}
+@media only screen and (max-width: 790px) {
+    header, footer {
+        width: 100%;        
+    }
+    header {
+        margin-top: 0px;
+        margin-top: 12px;
+        background-color: black;
+        color: white;
+        height: 83px;
+        display: flex;
+        align-items: center;
+        height: 71px;
+    }
+    .logo {
+        margin-left: 1.4vw; /* Примерно 1.4% ширины экрана */
+        width: 20vw; /* Примерно 20% ширины экрана */
+        height: auto; /* Автоматическая высота */
+    }
+    header a:nth-child(2) {
+        display: none; /* Скрываем второй элемент .navObject (текст "Simple Phone") */
+    }
+    .navObject {
+        font-size: 24px;
+        margin-left: 4vw; /* Заменим пиксели на виртуальные единицы */
+        margin-right: 4vw; /* Заменим пиксели на виртуальные единицы */
+    }
+    .number {
+        font-size: 35px;
+    } 
+    main {
+        font-size: 30px;
+        color: white;
+        text-align: left;
+        margin: 25px 0;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 28px;
+    }
+    .table {
+        margin-left: 0%;
+        width: 100%;
+    }
+    .selectionOfCharacteristics {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 10vw;
+    }
+    .product {
+        display: flex;
+        flex-direction: column; /* Располагаем содержимое .product в столбик */
+        align-items: center; /* Выравниваем содержимое .product по центру */
+    }
+    .product img {
+        width: 425px;
+        height: 580px;
+    }
+    .product div {
+        background-color: #39C33F;
+        margin-top: 10%;
+    }    
+    .productName, .productColor, .productRAM, .productROM {
+        display: flex; /* Применяем flex-контейнер */
+        justify-content: center; /* Выравниваем по горизонтали по центру */
+        align-items: center; /* Выравниваем по вертикали по центру */       
+        flex-direction: column; /* Располагаем содержимое .product в столбик */
+        align-items: flex-start; /* Выравниваем содержимое .product по центру */
+    }    
+    .productColor, .productRAM, .productROM {
+        margin-top: 49px; 
+    }
+    .productRAM {
+        display: flex;
+        flex-direction: column; /* Располагаем содержимое .characteristicsSelection в столбик */
+        justify-content: flex-start;
+    }
+    .characteristicsSelection .productRAM > div,
+    .characteristicsSelection .productROM > div {
+        text-align: left;
+        border: 7px solid #39C33F; /* Ширина обводки в зависимости от ширины окна */
+        width: 235px; /* Ширина элементов в зависимости от ширины окна */
+        height: 77px; /* Высота элементов в зависимости от ширины окна */
+    }    
+    .productName {
+        text-align: left; /* Выравниваем текст по левому краю */
+    }
+    .productName > :first-child {
+        font-size: 30px;
+    }
+    .productColor > div {
+        margin-right: 2vw; /* Расстояние между элементами внутри .productColor */
+    }    
+    .productColor > svg {
+        margin-right: 16px; /* Расстояние между кружками и текстом внутри .productColor */
+    }
+    footer {
+        margin-bottom: 0px;
+        background-color: black;
+        color: white;
+        display: flex; 
+        flex-direction: column;
+        align-items: center; 
+        height: 30%;
+    }
+    .aboutCompany {
+        margin-left: 3%;
+        margin-right: 3%;    
+        display: flex; 
+        flex-direction: column; 
+        align-items: center; 
+        text-align: left; 
+    }
+    .footerObject1,
+    .footerObject2 {
+        text-align: left; 
+        display: block; /* Размещаем элементы в столбик */
+        width: auto; /* Автоматическая ширина */
+    }
+}

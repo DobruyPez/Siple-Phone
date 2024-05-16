@@ -1,0 +1,243 @@
+@font-face {
+	font-family: 'Open Sans';
+	src: url('OpenSans-Regular.woff2') format('woff2') url('OpenSans-Regular.woff') format('woff');
+	font-weight: 1;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Open Sans Bold';
+	src: url('OpenSans-Bold.woff2') format('woff2') url('OpenSans-Bold.woff') format('woff');
+	font-weight: 700;
+	font-style: bold;
+}
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #232A32;    
+}
+@media screen and (max-width: 1300px) {
+    header, main, footer {
+        width: 90%; /* Ширина всех элементов будет составлять 90% ширины окна браузера */
+    }
+}
+header, main, footer {
+    width: 100%; /* Ширина всех элементов будет составлять 90% ширины окна браузера */
+}
+header {
+    background-color: black;
+    color: white;
+    height: 83px;
+    display: flex;
+    align-items: center;
+}
+a {
+    text-decoration: none; 
+    color: inherit; 
+}
+a:hover {
+    color: #0A70BF; 
+}
+.logo {
+    margin-top: 18px;
+    margin-bottom: 18px;
+    margin-left: 14px;
+    width: 125px;
+    height: 47px;
+}
+.navObject {
+    margin-top: 18px;
+    margin-bottom: 18px;
+    margin-left: 29px;
+    margin-right: 29px;
+    font-size: 24px;
+}  
+main {    
+    margin: 25px 0; /* Добавляем отступы сверху и снизу на 25px */
+}
+.table {
+    display: table;
+    width: 100%;
+    border-spacing: 8px; /* Отступ между ячейками */
+}
+.row {
+    display: table-row; /* Добавляем стиль display: table-row; */
+    width: 90%; /* Устанавливаем ширину 90% от ширины окна браузера */
+    margin: 0 auto; /* Центрируем строку по горизонтали */
+}
+.cell {
+    display: table-cell;
+    background-color: black;
+    color: white;
+    padding: 1%;
+    width: 25vw; 
+    height: 25vh;
+    overflow: hidden;
+    vertical-align: top; /* Выравнивание содержимого ячеек по верхнему краю */
+    text-align: center;
+}
+.cell img {
+    width: 100px; /* Максимальная ширина изображения равна ширине контейнера .product */
+    height: 220px;
+}
+.caption {
+    margin-top: 1%;
+}
+.title, .price {
+    font-weight: bold;
+}
+.catalogNavigation {
+    display: flex; /* Размещаем элементы внутри контейнера в строку */
+    align-items: center; /* Выравниваем элементы по вертикали по центру */
+    justify-content: center; /* Выравниваем элементы по горизонтали по центру */
+    gap: 63px; /* Отступ между элементами */
+}
+.catalogNavigation div {
+    width: 254px;
+    height: 56px;
+    background-color: #39C33F;
+    color: white;
+    display: flex;
+    justify-content: center; /* Выравниваем текст по горизонтали по центру */
+    align-items: center; /* Выравниваем текст по вертикали по центру */
+}
+footer {
+    background-color: black;
+    color: white;
+    display: flex; 
+    flex-direction: column;
+    align-items: center; 
+}
+footer a {
+    width: 100%;
+    height: 100%;
+    visibility: none;
+    text-decoration: none;
+}
+footer a:hover {
+    color: white;
+}
+.aboutCompany {
+    margin-left: 3%;
+    margin-right: 3%;    
+    display: flex; 
+    flex-direction: row; 
+    align-items: center; 
+}
+.footerObject1 {
+    font-size: 24px;
+    margin-top: 22px;
+    margin-bottom: 22px;
+    margin-right: 10%;
+    width: 50%; 
+    text-align: left; 
+    flex-grow: 1;
+}
+.footerObject2 {
+    font-size: 24px;
+    margin-top: 22px;
+    margin-bottom: 22px; 
+    text-align: left; 
+    width: 50%; /* Устанавливаем ширину 50% */
+}
+.number {
+    font-size: 50px;
+} 
+.bolding {
+    font-family: 'Open Sans Bold', sans-serif;
+    font-weight: bold;
+}
+.cards {
+    display: flex;
+    justify-content: center; 
+    width: 100%; /* Ширина будет занимать 100% контейнера footer */
+}
+.card {
+    width: 105px;
+    height: 72px;
+    margin: 0 3%; 
+}
+@media only screen and (max-width: 720px) {
+    header, footer {
+        width: 100%;        
+    }
+    header {
+        margin-top: 0px;
+        margin-top: 12px;
+        background-color: black;
+        color: white;
+        height: 83px;
+        display: flex;
+        align-items: center;
+        height: 71px;
+    }
+    .logo {
+        margin-left: 1.4vw; /* Примерно 1.4% ширины экрана */
+        width: 20vw; /* Примерно 20% ширины экрана */
+        height: auto; /* Автоматическая высота */
+    }
+    header a:nth-child(2) {
+        display: none; /* Скрываем второй элемент .navObject (текст "Simple Phone") */
+    }
+    .navObject {
+        font-size: 24px;
+        margin-left: 4vw; /* Заменим пиксели на виртуальные единицы */
+        margin-right: 4vw; /* Заменим пиксели на виртуальные единицы */
+    }
+    .number {
+        font-size: 35px;
+    } 
+    main {    
+        margin-bottom: 12px; 
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+    .table {
+        display: block; /* Изменяем отображение таблицы на блочное */
+        width: 90%; /* Ширина будет занимать 90% окна браузера */
+        margin: 0 auto; /* Центрируем таблицу по горизонтали */
+    }
+    .row {
+        display: block; /* Меняем отображение строк на блочное */
+        width: 100%; /* Ширина строк будет 100% контейнера */
+        margin-bottom: 16px; /* Добавляем отступ между строками */
+    }
+    .cell {
+        display: block; /* Отображаем ячейки как блоки */
+        overflow: visible;
+        height: auto;
+        width: 100%; /* Ширина ячеек будет 100% строки */
+        margin-bottom: 8px; /* Добавляем отступ между ячейками */
+    }
+    .catalogNavigation {
+        display: flex; /* Размещаем элементы внутри контейнера в строку */
+        align-items: center; /* Выравниваем элементы по вертикали по центру */
+        justify-content: center; /* Выравниваем элементы по горизонтали по центру */
+        gap: 33px; /* Отступ между элементами */
+    }
+    footer {
+        margin-bottom: 0px;
+        background-color: black;
+        color: white;
+        display: flex; 
+        flex-direction: column;
+        align-items: center; 
+        height: 30%;
+    }
+    .aboutCompany {
+        margin-left: 3%;
+        margin-right: 3%;    
+        display: flex; 
+        flex-direction: column; 
+        align-items: center; 
+        text-align: left; 
+    }
+    .footerObject1,
+    .footerObject2 {
+        text-align: left; 
+        display: block; /* Размещаем элементы в столбик */
+        width: auto; /* Автоматическая ширина */
+    }
+}

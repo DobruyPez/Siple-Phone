@@ -1,0 +1,19 @@
+$base-gap: 10vw;
+
+main {  
+    font-size: 4vw;   
+    color: white; 
+    text-align: left; 
+    margin: 25px 0;
+    display: flex;
+    align-items: flex-start; 
+    flex-direction: row;
+    gap: $base-gap;
+
+    @for $i from 1 through 5 { // Максимальное значениые итерации изменено с 10 на 5 для примера
+        @media screen and (max-width: #{1400px - 100 * $i}) {
+            $new-gap: calc(#{$base-gap} - #{$i * 2}vw); // Уменьшаем промежуток на 2vw с каждой итерацией
+            gap: $new-gap;
+        }
+    }
+}

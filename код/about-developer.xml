@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="about-developer.css"?>
+
+<developer>
+    <name>Станислав</name>
+    <surname>Дрозд</surname>
+    <university>БГТУ (Белорусский государственный технологический университет)</university>
+    <about>
+        <description>
+            Приветствую! Меня зовут Станислав Дрозд, и я студент Белорусского государственного технологического университета.
+            Меня увлекает программирование и разработка веб-приложений.
+        </description>
+        <interests>
+            <interest>Веб-разработка</interest>
+            <interest>Фронтенд</interest>
+            <interest>JavaScript</interest>
+            <interest>HTML/CSS</interest>
+        </interests>
+        <contact>
+            <email>1stasdrozd@gmail.com</email>
+            <github>https://github.com/DobruyPez</github>
+        </contact>
+    </about>
+</developer>
