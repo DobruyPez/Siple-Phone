@@ -1,0 +1,1079 @@
+[
+    {
+        "id": 0,
+        "brand": "Xiaomi",
+        "model": "13T",
+        "price": 129.99,
+        "cpu": "Mediatek Dimensity 8200 Ultra",
+        "ram": ["12 GB", "16 GB", "24 GB"],
+        "storage": ["256 GB", "512 GB"],
+        "color": {
+            "Blue": {
+                "imgSRC": "images/xiaomi-13T-black.jpg",
+                "svg": {
+                    "id": "svg1",
+                    "width": 50,
+                    "height": 50,
+                    "viewBox": "0 0 50 50",
+                    "fill": "none",
+                    "xmlns": "http://www.w3.org/2000/svg",
+                    "shape": "ellipse",
+                    "attributes": {
+                        "cx": 25,
+                        "cy": 25,
+                        "rx": 25,
+                        "ry": 25,
+                        "fill": "black",
+                        "fill-opacity": 0.82
+                    }
+                }
+            },
+            "black": {
+                "imgSRC": "images/xiaomy 13T.webp",
+                "svg": {
+                    "id": "svg2",
+                    "width": 50,
+                    "height": 50,
+                    "viewBox": "0 0 50 50",
+                    "fill": "none",
+                    "xmlns": "http://www.w3.org/2000/svg",
+                    "shape": "ellipse",
+                    "attributes": {
+                        "cx": 25,
+                        "cy": 25,
+                        "rx": 25,
+                        "ry": 25,
+                        "fill": "#0500FF",
+                        "fill-opacity": 0.82
+                    }
+                }
+            }
+        },
+        "photo": "images/xiaomy 13T.webp",
+        "productLink": "product.html",
+        "characteristics": {
+            "Basic": {
+                "Operating System Version at Release": "Android 13 (MIUI 14)",
+                "Screen Size": "6.67 inches",
+                "Screen Resolution": "1220x2712",
+                "Screen Technology": "AMOLED",
+                "Screen Refresh Rate": "144 Hz",
+                "RAM": "12 GB (LPDDR5)",
+                "Internal Storage": "256 GB (UFS 3.1)",
+                "Matrix Points": "50 MP",
+                "Max Video Resolution": "40x2160 (30 fps)",
+                "SIM Cards": "2 (nano SIM + nano SIM or nano SIM + eSIM)"
+            },
+            "Processor": {
+                "Platform": "Mediatek",
+                "Processor": "Mediatek Dimensity 8200 Ultra",
+                "Processor Clock Speed": "3.1 GHz",
+                "Number of Cores": "8 (1+3+4)",
+                "Processor Architecture": "64-bit"
+            },
+            "Design": {
+                "Body Material": "Metal",
+                "Dust and Water Resistance": "IP68",
+                "Fingerprint Sensor Location": "In-display",
+                "SIM Card Format": "Nano-SIM, eSIM"
+            },
+            "Dimensions and Weight": {
+                "Length": "16.2 mm",
+                "Width": "75.7 mm",
+                "Thickness": "8.62 mm",
+                "Weight": "193 g"
+            }
+        }
+    },
+    {
+        "id": 1,
+        "brand": "Samsung",
+        "model": "Galaxy S22",
+        "price": 899.99,
+        "cpu": "Exynos 990",
+        "ram": "8 GB",
+        "storage": "128 GB",
+        "color": {
+            "Blue": {
+                "imgSRC": "images/xiaomi-13T-black.jpg",
+                "svg": {
+                    "id": "svg1",
+                    "width": 50,
+                    "height": 50,
+                    "viewBox": "0 0 50 50",
+                    "fill": "none",
+                    "xmlns": "http://www.w3.org/2000/svg",
+                    "shape": "ellipse",
+                    "attributes": {
+                        "cx": 25,
+                        "cy": 25,
+                        "rx": 25,
+                        "ry": 25,
+                        "fill": "black",
+                        "fill-opacity": 0.82
+                    }
+                }
+            }
+        },
+        "photo": "images/samsung-galaxy-s22.jpg",
+        "productLink": "product.html",
+        "characteristics": {
+            "Basic": {
+                "Operating System Version at Release": "Android 12",
+                "Screen Size": "6.1 inches",
+                "Screen Resolution": "1080x2400",
+                "Screen Technology": "Super AMOLED",
+                "Screen Refresh Rate": "120 Hz",
+                "RAM": "8 GB",
+                "Internal Storage": "128 GB (UFS 3.1)",
+                "Matrix Points": "64 MP",
+                "Max Video Resolution": "4K@30/60fps",
+                "SIM Cards": "Dual SIM (Nano-SIM, dual stand-by)"
+            },
+            "Processor": {
+                "Platform": "Exynos",
+                "Processor": "Exynos 990",
+                "Processor Clock Speed": "2.73 GHz",
+                "Number of Cores": "8 (2+2+4)",
+                "Processor Architecture": "64-bit"
+            },
+            "Design": {
+                "Body Material": "Glass front (Gorilla Glass Victus), plastic back, aluminum frame",
+                "Dust and Water Resistance": "IP68",
+                "Fingerprint Sensor Location": "Under display, ultrasonic",
+                "SIM Card Format": "Nano-SIM"
+            },
+            "Dimensions and Weight": {
+                "Length": "151.7 mm",
+                "Width": "71.2 mm",
+                "Thickness": "7.9 mm",
+                "Weight": "169 g"
+            }
+        }
+    },
+    {
+        "id": 2,
+        "brand": "Apple",
+        "model": "iPhone 14 Pro",
+        "price": 1099.99,
+        "cpu": "Apple A16 Bionic",
+        "ram": "6 GB",
+        "storage": "256 GB",
+        "color": {
+            "Blue": {
+                "imgSRC": "images/xiaomi-13T-black.jpg",
+                "svg": {
+                    "id": "svg1",
+                    "width": 50,
+                    "height": 50,
+                    "viewBox": "0 0 50 50",
+                    "fill": "none",
+                    "xmlns": "http://www.w3.org/2000/svg",
+                    "shape": "ellipse",
+                    "attributes": {
+                        "cx": 25,
+                        "cy": 25,
+                        "rx": 25,
+                        "ry": 25,
+                        "fill": "silver",
+                        "fill-opacity": 0.82
+                    }
+                }
+            }
+        },
+        "photo": "images/iphone-14-pro.png",
+        "productLink": "product.html",
+        "characteristics": {
+            "Basic": {
+                "Operating System Version at Release": "iOS 16",
+                "Screen Size": "6.1 inches",
+                "Screen Resolution": "1170x2532",
+                "Screen Technology": "Super Retina XDR OLED",
+                "Screen Refresh Rate": "120 Hz",
+                "RAM": "6 GB (LPDDR5)",
+                "Internal Storage": "256 GB (NVMe)",
+                "Matrix Points": "12 MP",
+                "Max Video Resolution": "4K@24/30/60/120fps",
+                "SIM Cards": "Dual SIM (Nano-SIM, eSIM)"
+            },
+            "Processor": {
+                "Platform": "Apple",
+                "Processor": "Apple A16 Bionic",
+                "Processor Clock Speed": "3.23 GHz",
+                "Number of Cores": "6",
+                "Processor Architecture": "64-bit"
+            },
+            "Design": {
+                "Body Material": "Stainless steel frame, ceramic shield front",
+                "Dust and Water Resistance": "IP68",
+                "Fingerprint Sensor Location": "Not available",
+                "SIM Card Format": "Nano-SIM, eSIM"
+            },
+            "Dimensions and Weight": {
+                "Length": "146.7 mm",
+                "Width": "71.5 mm",
+                "Thickness": "7.7 mm",
+                "Weight": "187 g"
+            }
+        }
+    },
+    {
+        "id": 3,
+        "brand": "OnePlus",
+        "model": "9 Pro",
+        "price": 999.99,
+        "cpu": "Qualcomm Snapdragon 888",
+        "ram": "12 GB",
+        "storage": "256 GB",
+        
+        "color": {
+            "Green": {
+                "imgSRC": "images/xiaomi-13T-black.jpg",
+                "svg": {
+                    "id": "svg1",
+                    "width": 50,
+                    "height": 50,
+                    "viewBox": "0 0 50 50",
+                    "fill": "none",
+                    "xmlns": "http://www.w3.org/2000/svg",
+                    "shape": "ellipse",
+                    "attributes": {
+                        "cx": 25,
+                        "cy": 25,
+                        "rx": 25,
+                        "ry": 25,
+                        "fill": "green",
+                        "fill-opacity": 0.82
+                    }
+                }
+            }
+        },
+        "photo": "images/oneplus-9-pro.jpg",
+        "productLink": "product.html",
+        "characteristics": {
+            "Basic": {
+                "Operating System Version at Release": "Android 11, OxygenOS 11",
+                "Screen Size": "6.7 inches",
+                "Screen Resolution": "1440x3216",
+                "Screen Technology": "Fluid AMOLED",
+                "Screen Refresh Rate": "120 Hz",
+                "RAM": "12 GB (LPDDR5)",
+                "Internal Storage": "256 GB (UFS 3.1)",
+                "Matrix Points": "48 MP",
+                "Max Video Resolution": "4K@30/60fps, 1080p@30/60/240fps",
+                "SIM Cards": "Dual SIM (Nano-SIM, dual stand-by)"
+            },
+            "Processor": {
+                "Platform": "Qualcomm",
+                "Processor": "Qualcomm Snapdragon 888",
+                "Processor Clock Speed": "2.84 GHz",
+                "Number of Cores": "8",
+                "Processor Architecture": "64-bit"
+            },
+            "Design": {
+                "Body Material": "Glass front (Gorilla Glass 5), glass back (Gorilla Glass 5), aluminum frame",
+                "Dust and Water Resistance": "IP68",
+                "Fingerprint Sensor Location": "Under display, optical",
+                "SIM Card Format": "Nano-SIM"
+            },
+            "Dimensions and Weight": {
+                "Length": "163.2 mm",
+                "Width": "73.6 mm",
+                "Thickness": "8.7 mm",
+                "Weight": "197 g"
+            }
+        }
+    },
+    {
+        "id": 4,
+        "brand": "Sony",
+        "model": "Xperia 5 III",
+        "price": 999.99,
+        "cpu": "Qualcomm Snapdragon 888",
+        "ram": "8 GB",
+        "storage": "256 GB",
+        "color": {
+            "Black": {
+                "imgSRC": "images/xiaomi-13T-black.jpg",
+                "svg": {
+                    "id": "svg1",
+                    "width": 50,
+                    "height": 50,
+                    "viewBox": "0 0 50 50",
+                    "fill": "none",
+                    "xmlns": "http://www.w3.org/2000/svg",
+                    "shape": "ellipse",
+                    "attributes": {
+                        "cx": 25,
+                        "cy": 25,
+                        "rx": 25,
+                        "ry": 25,
+                        "fill": "black",
+                        "fill-opacity": 0.82
+                    }
+                }
+            }
+        },
+        "photo": "images/sony-xperia-5-iii.png",
+        "productLink": "product.html",
+        "characteristics": {
+            "Basic": {
+                "Operating System Version at Release": "Android 11",
+                "Screen Size": "6.1 inches",
+                "Screen Resolution": "1080x2520",
+                "Screen Technology": "OLED",
+                "Screen Refresh Rate": "120 Hz",
+                "RAM": "8 GB (LPDDR5)",
+                "Internal Storage": "256 GB (UFS 3.1)",
+                "Matrix Points": "12 MP",
+                "Max Video Resolution": "4K@30/60/120fps, 1080p@30/60/960fps",
+                "SIM Cards": "Single SIM (Nano-SIM) or Hybrid Dual SIM (Nano-SIM, dual stand-by)"
+            },
+            "Processor": {
+                "Platform": "Qualcomm",
+                "Processor": "Qualcomm Snapdragon 888",
+                "Processor Clock Speed": "2.84 GHz",
+                "Number of Cores": "8",
+                "Processor Architecture": "64-bit"
+            },
+            "Design": {
+                "Body Material": "Glass front (Gorilla Glass Victus), glass back (Gorilla Glass 6), aluminum frame",
+                "Dust and Water Resistance": "IP65/IP68",
+                "Fingerprint Sensor Location": "Side-mounted",
+                "SIM Card Format": "Nano-SIM or Hybrid Dual SIM"
+            },
+            "Dimensions and Weight": {
+                "Length": "157 mm",
+                "Width": "68 mm",
+                "Thickness": "8.2 mm",
+                "Weight": "169 g"
+            }
+        }
+    },
+    {
+        "id": 5,
+        "brand": "Google",
+        "model": "Pixel 6",
+        "price": 799.99,
+        "cpu": "Google Tensor",
+        "ram": "8 GB",
+        "storage": "128 GB",
+        "color": {
+            "White": {
+                "imgSRC": "images/xiaomi-13T-black.jpg",
+                "svg": {
+                    "id": "svg1",
+                    "width": 50,
+                    "height": 50,
+                    "viewBox": "0 0 50 50",
+                    "fill": "none",
+                    "xmlns": "http://www.w3.org/2000/svg",
+                    "shape": "ellipse",
+                    "attributes": {
+                        "cx": 25,
+                        "cy": 25,
+                        "rx": 25,
+                        "ry": 25,
+                        "fill": "white",
+                        "fill-opacity": 0.82
+                    }
+                }
+            }
+        },
+        "photo": "images/google-pixel-6.webp",
+        "productLink": "product.html",
+        "characteristics": {
+            "Basic": {
+                "Operating System Version at Release": "Android 12",
+                "Screen Size": "6.4 inches",
+                "Screen Resolution": "1080x2400",
+                "Screen Technology": "OLED",
+                "Screen Refresh Rate": "90 Hz",
+                "RAM": "8 GB (LPDDR5)",
+                "Internal Storage": "128 GB (UFS 3.1)",
+                "Matrix Points": "50 MP",
+                "Max Video Resolution": "4K@30/60fps, 1080p@30/60/240fps",
+                "SIM Cards": "eSIM"
+            },
+            "Processor": {
+                "Platform": "Google",
+                "Processor": "Google Tensor",
+                "Processor Clock Speed": "2.80 GHz",
+                "Number of Cores": "8",
+                "Processor Architecture": "64-bit"
+            },
+            "Design": {
+                "Body Material": "Glass front (Gorilla Glass Victus), aluminum frame",
+                "Dust and Water Resistance": "IP68",
+                "Fingerprint Sensor Location": "Under display, optical",
+                "SIM Card Format": "eSIM"
+            },
+            "Dimensions and Weight": {
+                "Length": "158.6 mm",
+                "Width": "74.8 mm",
+                "Thickness": "8.9 mm",
+                "Weight": "207 g"
+            }
+        }
+    },
+    {
+        "id": 6,
+        "brand": "LG",
+        "model": "Wing",
+        "price": 699.99,
+        "cpu": "Qualcomm Snapdragon 765G",
+        "ram": "8 GB",
+        "storage": "128 GB",
+        "color": {
+            "Gray": {
+                "imgSRC": "images/xiaomi-13T-black.jpg",
+                "svg": {
+                    "id": "svg1",
+                    "width": 50,
+                    "height": 50,
+                    "viewBox": "0 0 50 50",
+                    "fill": "none",
+                    "xmlns": "http://www.w3.org/2000/svg",
+                    "shape": "ellipse",
+                    "attributes": {
+                        "cx": 25,
+                        "cy": 25,
+                        "rx": 25,
+                        "ry": 25,
+                        "fill": "gray",
+                        "fill-opacity": 0.82
+                    }
+                }
+            }
+        },
+        "photo": "images/lg-wing.jpg",
+        "productLink": "product.html",
+        "characteristics": {
+            "Basic": {
+                "Operating System Version at Release": "Android 10, LG UX 9.0",
+                "Screen Size": "6.8 inches (main), 3.9 inches (secondary)",
+                "Screen Resolution": "1080x2460 (main), 1080x1240 (secondary)",
+                "Screen Technology": "P-OLED (main), G-OLED (secondary)",
+                "Screen Refresh Rate": "60 Hz (main), 60 Hz (secondary)",
+                "RAM": "8 GB (LPDDR4X)",
+                "Internal Storage": "128 GB (UFS 2.1)",
+                "Matrix Points": "64 MP",
+                "Max Video Resolution": "4K@30fps, 1080p@30/60fps, gyro-EIS",
+                "SIM Cards": "Single SIM (Nano-SIM) or Hybrid Dual SIM (Nano-SIM, dual stand-by)"
+            },
+            "Processor": {
+                "Platform": "Qualcomm",
+                "Processor": "Qualcomm Snapdragon 765G",
+                "Processor Clock Speed": "2.40 GHz",
+                "Number of Cores": "8",
+                "Processor Architecture": "64-bit"
+            },
+            "Design": {
+                "Body Material": "Glass front (Gorilla Glass 5), glass back (Gorilla Glass 5), aluminum frame",
+                "Dust and Water Resistance": "No",
+                "Fingerprint Sensor Location": "Under display, optical",
+                "SIM Card Format": "Nano-SIM or Hybrid Dual SIM"
+            },
+            "Dimensions and Weight": {
+                "Length": "169.5 mm",
+                "Width": "74.5 mm",
+                "Thickness": "10.9 mm",
+                "Weight": "260 g"
+            }
+        }
+    },
+    {
+        "id": 7,
+        "brand": "Huawei",
+        "model": "Mate 40 Pro",
+        "price": 1199.99,
+        "cpu": "Huawei Kirin 9000",
+        "ram": "8 GB",
+        "storage": "256 GB",
+        "color": {
+            "Silver": {
+                "imgSRC": "images/xiaomi-13T-black.jpg",
+                "svg": {
+                    "id": "svg1",
+                    "width": 50,
+                    "height": 50,
+                    "viewBox": "0 0 50 50",
+                    "fill": "none",
+                    "xmlns": "http://www.w3.org/2000/svg",
+                    "shape": "ellipse",
+                    "attributes": {
+                        "cx": 25,
+                        "cy": 25,
+                        "rx": 25,
+                        "ry": 25,
+                        "fill": "silver",
+                        "fill-opacity": 0.82
+                    }
+                }
+            }
+        },
+        "photo": "images/huawei-mate-40-pro.jpg",
+        "productLink": "product.html",
+        "characteristics": {
+            "Basic": {
+                "Operating System Version at Release": "Android 10, EMUI 11",
+                "Screen Size": "6.76 inches",
+                "Screen Resolution": "1344x2772",
+                "Screen Technology": "OLED",
+                "Screen Refresh Rate": "90 Hz",
+                "RAM": "8 GB (LPDDR5)",
+                "Internal Storage": "256 GB (UFS 3.1)",
+                "Matrix Points": "50 MP",
+                "Max Video Resolution": "4K@30/60fps, 1080p@30/60/960fps",
+                "SIM Cards": "Dual SIM (Nano-SIM, dual stand-by)"
+            },
+            "Processor": {
+                "Platform": "Huawei",
+                "Processor": "Huawei Kirin 9000",
+                "Processor Clock Speed": "3.13 GHz",
+                "Number of Cores": "8 (1+3+4)",
+                "Processor Architecture": "64-bit"
+            },
+            "Design": {
+                "Body Material": "Glass front (Gorilla Glass), ceramic back, aluminum frame",
+                "Dust and Water Resistance": "IP68",
+                "Fingerprint Sensor Location": "In-display, optical",
+                "SIM Card Format": "Nano-SIM, eSIM"
+            },
+            "Dimensions and Weight": {
+                "Length": "162.9 mm",
+                "Width": "75.5 mm",
+                "Thickness": "9.1 mm",
+                "Weight": "212 g"
+            }
+        }
+    },
+    {
+        "id": 8,
+        "brand": "Motorola",
+        "model": "Edge 20",
+        "price": 699.99,
+        "cpu": "Qualcomm Snapdragon 778G",
+        "ram": "8 GB",
+        "storage": "128 GB",
+        "color": {
+            "Blue": {
+                "imgSRC": "images/xiaomi-13T-black.jpg",
+                "svg": {
+                    "id": "svg1",
+                    "width": 50,
+                    "height": 50,
+                    "viewBox": "0 0 50 50",
+                    "fill": "none",
+                    "xmlns": "http://www.w3.org/2000/svg",
+                    "shape": "ellipse",
+                    "attributes": {
+                        "cx": 25,
+                        "cy": 25,
+                        "rx": 25,
+                        "ry": 25,
+                        "fill": "blue",
+                        "fill-opacity": 0.82
+                    }
+                }
+            }
+        },
+        "photo": "images/motorola-edge-20.jpg",
+        "productLink": "product.html",
+        "characteristics": {
+            "Basic": {
+                "Operating System Version at Release": "Android 11",
+                "Screen Size": "6.7 inches",
+                "Screen Resolution": "1080x2400",
+                "Screen Technology": "AMOLED",
+                "Screen Refresh Rate": "144 Hz",
+                "RAM": "8 GB (LPDDR5)",
+                "Internal Storage": "128 GB (UFS 3.1)",
+                "Matrix Points": "108 MP",
+                "Max Video Resolution": "4K@30/60/120fps, 1080p@30/60/240fps",
+                "SIM Cards": "Hybrid Dual SIM (Nano-SIM, dual stand-by)"
+            },
+            "Processor": {
+                "Platform": "Qualcomm",
+                "Processor": "Qualcomm Snapdragon 778G",
+                "Processor Clock Speed": "2.40 GHz",
+                "Number of Cores": "8",
+                "Processor Architecture": "64-bit"
+            },
+            "Design": {
+                "Body Material": "Glass front (Gorilla Glass 5), plastic frame",
+                "Dust and Water Resistance": "No",
+                "Fingerprint Sensor Location": "Under display",
+                "SIM Card Format": "Nano-SIM or Hybrid Dual SIM"
+            },
+            "Dimensions and Weight": {
+                "Length": "169 mm",
+                "Width": "75.6 mm",
+                "Thickness": "8.9 mm",
+                "Weight": "190 g"
+            }
+        }
+    },
+    {
+        "id": 9,
+        "brand": "Realme",
+        "model": "GT 2 Pro",
+        "price": 499.99,
+        "cpu": "Qualcomm Snapdragon 888",
+        "ram": "12 GB",
+        "storage": "256 GB",
+        "color": {
+            "Yellow": {
+                "imgSRC": "images/xiaomi-13T-black.jpg",
+                "svg": {
+                    "id": "svg1",
+                    "width": 50,
+                    "height": 50,
+                    "viewBox": "0 0 50 50",
+                    "fill": "none",
+                    "xmlns": "http://www.w3.org/2000/svg",
+                    "shape": "ellipse",
+                    "attributes": {
+                        "cx": 25,
+                        "cy": 25,
+                        "rx": 25,
+                        "ry": 25,
+                        "fill": "yellow",
+                        "fill-opacity": 0.82
+                    }
+                }
+            }
+        },
+        "photo": "images/realme-gt-2-pro.jpg",
+        "productLink": "product.html",
+        "characteristics": {
+            "Basic": {
+                "Operating System Version at Release": "Android 11, Realme UI 2.0",
+                "Screen Size": "6.7 inches",
+                "Screen Resolution": "1440x3200",
+                "Screen Technology": "Super AMOLED",
+                "Screen Refresh Rate": "120 Hz",
+                "RAM": "12 GB (LPDDR5)",
+                "Internal Storage": "256 GB (UFS 3.1)",
+                "Matrix Points": "50 MP",
+                "Max Video Resolution": "4K@30/60fps, 1080p@30/60/240fps",
+                "SIM Cards": "Dual SIM (Nano-SIM, dual stand-by)"
+            },
+            "Processor": {
+                "Platform": "Qualcomm",
+                "Processor": "Qualcomm Snapdragon 888",
+                "Processor Clock Speed": "2.84 GHz",
+                "Number of Cores": "8",
+                "Processor Architecture": "64-bit"
+            },
+            "Design": {
+                "Body Material": "Glass front (Gorilla Glass Victus), glass back (Gorilla Glass 5), aluminum frame",
+                "Dust and Water Resistance": "No",
+                "Fingerprint Sensor Location": "Under display, optical",
+                "SIM Card Format": "Nano-SIM"
+            },
+            "Dimensions and Weight": {
+                "Length": "159.9 mm",
+                "Width": "73.4 mm",
+                "Thickness": "8.1 mm",
+                "Weight": "186 g"
+            }
+        }
+    },
+    {
+        "id": 10,
+        "brand": "Oppo",
+        "model": "Find X5 Pro",
+        "price": 1299.99,
+        "cpu": "Qualcomm Snapdragon 8 Gen 1",
+        "ram": "12 GB",
+        "storage": "256 GB",
+        "color": {
+            "Blue": {
+                "imgSRC": "images/xiaomi-13T-black.jpg",
+                "svg": {
+                    "id": "svg1",
+                    "width": 50,
+                    "height": 50,
+                    "viewBox": "0 0 50 50",
+                    "fill": "none",
+                    "xmlns": "http://www.w3.org/2000/svg",
+                    "shape": "ellipse",
+                    "attributes": {
+                        "cx": 25,
+                        "cy": 25,
+                        "rx": 25,
+                        "ry": 25,
+                        "fill": "blue",
+                        "fill-opacity": 0.82
+                    }
+                }
+            }
+        },
+        "photo": "images/oppo-find-x5-pro.jpg",
+        "productLink": "product.html",
+        "characteristics": {
+            "Basic": {
+                "Operating System Version at Release": "Android 12, ColorOS 12",
+                "Screen Size": "6.7 inches",
+                "Screen Resolution": "1440x3216",
+                "Screen Technology": "AMOLED",
+                "Screen Refresh Rate": "120 Hz",
+                "RAM": "12 GB (LPDDR5)",
+                "Internal Storage": "256 GB (UFS 3.1)",
+                "Matrix Points": "50 MP",
+                "Max Video Resolution": "4K@30/60fps, 1080p@30/60/240fps",
+                "SIM Cards": "Dual SIM (Nano-SIM, dual stand-by)"
+            },
+            "Processor": {
+                "Platform": "Qualcomm",
+                "Processor": "Qualcomm Snapdragon 8 Gen 1",
+                "Processor Clock Speed": "3.00 GHz",
+                "Number of Cores": "8",
+                "Processor Architecture": "64-bit"
+            },
+            "Design": {
+                "Body Material": "Glass front (Gorilla Glass 5), glass back (Gorilla Glass 5), aluminum frame",
+                "Dust and Water Resistance": "IP68",
+                "Fingerprint Sensor Location": "Under display, optical",
+                "SIM Card Format": "Nano-SIM, eSIM"
+            },
+            "Dimensions and Weight": {
+                "Length": "163.2 mm",
+                "Width": "74.6 mm",
+                "Thickness": "8.3 mm",
+                "Weight": "202 g"
+            }
+        }
+    },
+    {
+        "id": 11,
+        "brand": "Xiaomi",
+        "model": "Redmi Note 11 Pro",
+        "price": 349.99,
+        "cpu": "Qualcomm Snapdragon 695",
+        "ram": "6 GB",
+        "storage": "128 GB",
+        "color": {
+            "Gray": {
+                "imgSRC": "images/xiaomi-13T-black.jpg",
+                "svg": {
+                    "id": "svg1",
+                    "width": 50,
+                    "height": 50,
+                    "viewBox": "0 0 50 50",
+                    "fill": "none",
+                    "xmlns": "http://www.w3.org/2000/svg",
+                    "shape": "ellipse",
+                    "attributes": {
+                        "cx": 25,
+                        "cy": 25,
+                        "rx": 25,
+                        "ry": 25,
+                        "fill": "gray",
+                        "fill-opacity": 0.82
+                    }
+                }
+            }
+        },
+        "photo": "images/xiaomi-redmi-note-11-pro.jpg",
+        "productLink": "product.html",
+        "characteristics": {
+            "Basic": {
+                "Operating System Version at Release": "Android 11, MIUI 13",
+                "Screen Size": "6.67 inches",
+                "Screen Resolution": "1080x2400",
+                "Screen Technology": "AMOLED",
+                "Screen Refresh Rate": "120 Hz",
+                "RAM": "6 GB (LPDDR5)",
+                "Internal Storage": "128 GB (UFS 3.1)",
+                "Matrix Points": "108 MP",
+                "Max Video Resolution": "4K@30/60fps, 1080p@30/60/240fps",
+                "SIM Cards": "Dual SIM (Nano-SIM, dual stand-by)"
+            },
+            "Processor": {
+                "Platform": "Qualcomm",
+                "Processor": "Qualcomm Snapdragon 695",
+                "Processor Clock Speed": "2.21 GHz",
+                "Number of Cores": "8",
+                "Processor Architecture": "64-bit"
+            },
+            "Design": {
+                "Body Material": "Glass front (Gorilla Glass 5), plastic back",
+                "Dust and Water Resistance": "No",
+                "Fingerprint Sensor Location": "Side-mounted",
+                "SIM Card Format": "Nano-SIM or Hybrid Dual SIM"
+            },
+            "Dimensions and Weight": {
+                "Length": "163.6 mm",
+                "Width": "76.8 mm",
+                "Thickness": "8.8 mm",
+                "Weight": "203 g"
+            }
+        }
+    },
+    {
+        "id": 12,
+        "brand": "Sony",
+        "model": "Xperia 1 III",
+        "price": 1299.99,
+        "cpu": "Qualcomm Snapdragon 888",
+        "ram": "12 GB",
+        "storage": "256 GB",
+        "color": {
+            "Purple": {
+                "imgSRC": "images/xiaomi-13T-black.jpg",
+                "svg": {
+                    "id": "svg1",
+                    "width": 50,
+                    "height": 50,
+                    "viewBox": "0 0 50 50",
+                    "fill": "none",
+                    "xmlns": "http://www.w3.org/2000/svg",
+                    "shape": "ellipse",
+                    "attributes": {
+                        "cx": 25,
+                        "cy": 25,
+                        "rx": 25,
+                        "ry": 25,
+                        "fill": "purple",
+                        "fill-opacity": 0.82
+                    }
+                }
+            }
+        },
+        "photo": "images/sony-xperia-1-iii.webp",
+        "productLink": "product.html",
+        "characteristics": {
+            "Basic": {
+                "Operating System Version at Release": "Android 11",
+                "Screen Size": "6.5 inches",
+                "Screen Resolution": "1644x3840",
+                "Screen Technology": "AMOLED",
+                "Screen Refresh Rate": "120 Hz",
+                "RAM": "12 GB (LPDDR5)",
+                "Internal Storage": "256 GB (UFS 3.1)",
+                "Matrix Points": "12 MP",
+                "Max Video Resolution": "4K@24/30/60/120fps, 1080p@30/60/960fps",
+                "SIM Cards": "Single SIM (Nano-SIM) or Hybrid Dual SIM (Nano-SIM, dual stand-by)"
+            },
+            "Processor": {
+                "Platform": "Qualcomm",
+                "Processor": "Qualcomm Snapdragon 888",
+                "Processor Clock Speed": "2.84 GHz",
+                "Number of Cores": "8",
+                "Processor Architecture": "64-bit"
+            },
+            "Design": {
+                "Body Material": "Glass front (Gorilla Glass Victus), glass back (Gorilla Glass 6), aluminum frame",
+                "Dust and Water Resistance": "IP65/IP68",
+                "Fingerprint Sensor Location": "Side-mounted",
+                "SIM Card Format": "Nano-SIM or Hybrid Dual SIM"
+            },
+            "Dimensions and Weight": {
+                "Length": "165 mm",
+                "Width": "71 mm",
+                "Thickness": "8.2 mm",
+                "Weight": "186 g"
+            }
+        }
+    },
+    {
+        "id": 13,
+        "brand": "Samsung",
+        "model": "Galaxy A53 5G",
+        "price": 499.99,
+        "cpu": "Qualcomm Snapdragon 778G",
+        "ram": "6 GB",
+        "storage": "128 GB",
+        "color": {
+            "White": {
+                "imgSRC": "images/xiaomi-13T-black.jpg",
+                "svg": {
+                    "id": "svg1",
+                    "width": 50,
+                    "height": 50,
+                    "viewBox": "0 0 50 50",
+                    "fill": "none",
+                    "xmlns": "http://www.w3.org/2000/svg",
+                    "shape": "ellipse",
+                    "attributes": {
+                        "cx": 25,
+                        "cy": 25,
+                        "rx": 25,
+                        "ry": 25,
+                        "fill": "wite",
+                        "fill-opacity": 0.82
+                    }
+                }
+            }
+        },
+        "photo": "images/samsung-galaxy-a53-5g.png",
+        "productLink": "product.html",
+        "characteristics": {
+            "Basic": {
+                "Operating System Version at Release": "Android 11, One UI 3.1",
+                "Screen Size": "6.5 inches",
+                "Screen Resolution": "1080x2400",
+                "Screen Technology": "Super AMOLED",
+                "Screen Refresh Rate": "120 Hz",
+                "RAM": "6 GB (LPDDR4X)",
+                "Internal Storage": "128 GB (UFS 2.1)",
+                "Matrix Points": "64 MP",
+                "Max Video Resolution": "4K@30/60fps, 1080p@30/60/240fps",
+                "SIM Cards": "Dual SIM (Nano-SIM, dual stand-by)"
+            },
+            "Processor": {
+                "Platform": "Qualcomm",
+                "Processor": "Qualcomm Snapdragon 778G",
+                "Processor Clock Speed": "2.40 GHz",
+                "Number of Cores": "8",
+                "Processor Architecture": "64-bit"
+            },
+            "Design": {
+                "Body Material": "Glass front (Gorilla Glass 5), plastic back, plastic frame",
+                "Dust and Water Resistance": "IP67",
+                "Fingerprint Sensor Location": "Under display, optical",
+                "SIM Card Format": "Nano-SIM"
+            },
+            "Dimensions and Weight": {
+                "Length": "159.9 mm",
+                "Width": "75.1 mm",
+                "Thickness": "8.4 mm",
+                "Weight": "189 g"
+            }
+        }
+    },
+    {
+        "id": 14,
+        "brand": "OnePlus",
+        "model": "Nord 2",
+        "price": 399.99,
+        "cpu": "MediaTek Dimensity 1200-AI",
+        "ram": "8 GB",
+        "storage": "128 GB",
+        "color": {
+            "Blue": {
+                "imgSRC": "images/xiaomi-13T-black.jpg",
+                "svg": {
+                    "id": "svg1",
+                    "width": 50,
+                    "height": 50,
+                    "viewBox": "0 0 50 50",
+                    "fill": "none",
+                    "xmlns": "http://www.w3.org/2000/svg",
+                    "shape": "ellipse",
+                    "attributes": {
+                        "cx": 25,
+                        "cy": 25,
+                        "rx": 25,
+                        "ry": 25,
+                        "fill": "blue",
+                        "fill-opacity": 0.82
+                    }
+                }
+            }
+        },
+        "photo": "images/oneplus-nord-2.jpg",
+        "productLink": "product.html",
+        "characteristics": {
+            "Basic": {
+                "Operating System Version at Release": "Android 11, OxygenOS 11.3",
+                "Screen Size": "6.43 inches",
+                "Screen Resolution": "1080x2400",
+                "Screen Technology": "Fluid AMOLED",
+                "Screen Refresh Rate": "90 Hz",
+                "RAM": "8 GB (LPDDR4X)",
+                "Internal Storage": "128 GB (UFS 3.1)",
+                "Matrix Points": "50 MP",
+                "Max Video Resolution": "4K@30fps, 1080p@30/60/240fps",
+                "SIM Cards": "Dual SIM (Nano-SIM, dual stand-by)"
+            },
+            "Processor": {
+                "Platform": "MediaTek",
+                "Processor": "MediaTek Dimensity 1200-AI",
+                "Processor Clock Speed": "3.0 GHz",
+                "Number of Cores": "8",
+                "Processor Architecture": "64-bit"
+            },
+            "Design": {
+                "Body Material": "Glass front (Gorilla Glass 5), glass back (Gorilla Glass 5)",
+                "Dust and Water Resistance": "No",
+                "Fingerprint Sensor Location": "In-display",
+                "SIM Card Format": "Dual SIM (Nano-SIM, dual stand-by)"
+            },
+            "Dimensions and Weight": {
+                "Length": "158.9 mm",
+                "Width": "73.2 mm",
+                "Thickness": "8.3 mm",
+                "Weight": "189 g"
+            }
+        }
+    },
+    {
+        "id": 15,
+        "brand": "Apple",
+        "model": "iPhone SE (2022)",
+        "price": 429.99,
+        "cpu": "Apple A15 Bionic",
+        "ram": "4 GB",
+        "storage": "64 GB",
+        "color": {
+            "Red": {
+                "imgSRC": "images/xiaomi-13T-black.jpg",
+                "svg": {
+                    "id": "svg1",
+                    "width": 50,
+                    "height": 50,
+                    "viewBox": "0 0 50 50",
+                    "fill": "none",
+                    "xmlns": "http://www.w3.org/2000/svg",
+                    "shape": "ellipse",
+                    "attributes": {
+                        "cx": 25,
+                        "cy": 25,
+                        "rx": 25,
+                        "ry": 25,
+                        "fill": "red",
+                        "fill-opacity": 0.82
+                    }
+                }
+            }
+        },
+        "photo": "images/iphone-se-2022.jpg",
+        "productLink": "product.html",
+        "characteristics": {
+            "Basic": {
+                "Operating System Version at Release": "iOS 15",
+                "Screen Size": "4.7 inches",
+                "Screen Resolution": "750x1334",
+                "Screen Technology": "Retina IPS LCD",
+                "Screen Refresh Rate": "60 Hz",
+                "RAM": "4 GB",
+                "Internal Storage": "64 GB (NVMe)",
+                "Matrix Points": "12 MP",
+                "Max Video Resolution": "4K@24/30/60fps, 1080p@30/60/120/240fps",
+                "SIM Cards": "Nano-SIM, eSIM"
+            },
+            "Processor": {
+                "Platform": "Apple",
+                "Processor": "Apple A15 Bionic",
+                "Processor Clock Speed": "2.65 GHz",
+                "Number of Cores": "6",
+                "Processor Architecture": "64-bit"
+            },
+            "Design": {
+                "Body Material": "Glass front (Gorilla Glass), aluminum frame",
+                "Dust and Water Resistance": "IP67",
+                "Fingerprint Sensor Location": "Front-mounted",
+                "SIM Card Format": "Nano-SIM, eSIM"
+            },
+            "Dimensions and Weight": {
+                "Length": "138.4 mm",
+                "Width": "67.3 mm",
+                "Thickness": "7.3 mm",
+                "Weight": "148 g"
+            }
+        }
+    }
+]
