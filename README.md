@@ -104,7 +104,6 @@ To get a local copy up and running follow these simple example steps.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Usage
-Full necessary information in <a href="https://github.com/DobruyPez/Siple-Phone"><strong>Пояснительная записка.docx</strong></a>
 1. Start the development server
    ```sh
    node server.js
