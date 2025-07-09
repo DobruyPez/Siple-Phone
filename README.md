@@ -51,8 +51,6 @@ Simple Phone Store is a fully functional e-commerce platform that displays mobil
 - **Modern tech stack** - Uses Node.js backend with frontend HTML/CSS/JS
 - **Easy product management** - Update inventory through JSON files
 
-![Store Screenshot](https://via.placeholder.com/800x400?text=Phone+Store+Screenshot)
-
 Key features:
 - Product catalog with filtering options
 - Detailed product pages
@@ -71,7 +69,6 @@ Key features:
 * [![JavaScript][JavaScript-badge]][JavaScript-url]
 * [![Node.js][Node.js-badge]][Node.js-url]
 * [![JSON][JSON-badge]][JSON-url]
-* MASM Assembler
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -93,7 +90,7 @@ To get a local copy up and running follow these simple example steps.
 1. Get a free API Key at [https://example.com](https://example.com)
 2. Clone the repo
    ```sh
-   git clone https://github.com/DobruyPez/compiler.git
+   git clone https://github.com/DobruyPez/Siple-Phone
    ```
 3. Install dependencies
    ```sh
@@ -112,7 +109,7 @@ Full necessary information in <a href="https://github.com/DobruyPez/Siple-Phone"
    ```sh
    node server.js
    ```
-2. Access the store at http://localhost:3000 --project LPLab10_git
+2. Access the store at http://localhost:3000 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
